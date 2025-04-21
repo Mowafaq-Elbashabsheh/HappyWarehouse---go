@@ -1,0 +1,10 @@
+<div>
+
+    <label for="inputField">Enter some text:</label>
+    <input type="text" [(ngModel)]="message" placeholder="message" />
+    <button (click)="sendMessage()">Send</button>
+
+    <div *ngFor="let message of listMessages">
+        <p>- {{ message }}</p>
+    </div>
+</div>

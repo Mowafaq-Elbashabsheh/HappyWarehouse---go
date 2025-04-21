@@ -1,0 +1,29 @@
+Log created on 02-04-2025 11:19:28
+{"traceId":"e616e7ca-6aca-404c-b507-f7b4306989e7","timestamp":"2025-04-10T14:20:01.5442171+04:00","message":"Bad Request","innerException":"User ID is Required\n"}
+{"traceId":"391a5685-35c6-41ad-960c-5dd8af278126","timestamp":"2025-04-10T14:53:32.7175019+04:00","message":"Not Found","innerException":"404 page not found\n"}
+{"traceId":"d021f3db-14af-4de3-88c9-48633dd2f7c0","timestamp":"2025-04-10T14:53:32.7201242+04:00","message":"Not Found","innerException":"404 page not found\n"}
+{"traceId":"660203fc-12b8-4b93-a98a-3a4459afd6bc","timestamp":"2025-04-10T14:55:52.3852374+04:00","message":"Not Found","innerException":"404 page not found\n"}
+{"traceId":"65747a29-985d-4806-ba56-962c6b0aa157","timestamp":"2025-04-10T14:55:52.3881698+04:00","message":"Not Found","innerException":"404 page not found\n"}
+{"traceId":"33db3072-fc5d-4e6e-a72a-a62399337abd","timestamp":"2025-04-11T11:25:06.8189836+04:00","message":"Unauthorized","innerException":"Invalid Token\n"}
+{"traceId":"cd96b78b-7245-45d7-a8c1-d51e45094573","timestamp":"2025-04-11T11:25:06.8189836+04:00","message":"Unauthorized","innerException":"Invalid Token\n"}
+{"traceId":"462ad31b-24d3-4770-8125-d4178e23b40e","timestamp":"2025-04-11T11:26:25.4671429+04:00","message":"Unauthorized","innerException":"Invalid Token\n"}
+{"traceId":"902e091c-408e-4568-81b1-1f7e665e7d50","timestamp":"2025-04-11T11:26:25.4704528+04:00","message":"Unauthorized","innerException":"Invalid Token\n"}
+{"traceId":"b9fa9c9c-5d5a-4d19-b4c8-7d00862d67b6","timestamp":"2025-04-11T11:27:22.4938504+04:00","message":"Not Found","innerException":"404 page not found\n"}
+{"traceId":"b864749a-bfd6-494f-8f63-fa91c18dcfdb","timestamp":"2025-04-11T11:58:11.0461596+04:00","message":"Not Found","innerException":"404 page not found\n"}
+{"traceId":"62527b34-2e5e-4f5c-aed2-b3c5f1872bd7","timestamp":"2025-04-14T08:48:38.0555341+04:00","message":"Unauthorized","innerException":"Invalid Token\n"}
+{"traceId":"f8e22aef-a2a8-473d-853a-492714add71f","timestamp":"2025-04-18T13:56:21.9332518+04:00","message":"Forbidden","innerException":"Forbidden - Unauthorized\n"}
+{"traceId":"e4edab1a-76ba-454c-93ff-dfdb8789d842","timestamp":"2025-04-18T19:51:38.9597613+04:00","message":"Bad Request","innerException":"Warehouse ID is Required\n"}
+{"traceId":"fa4c8090-fc6a-4926-9fa1-507db3e1804a","timestamp":"2025-04-18T19:58:34.8356691+04:00","message":"Bad Request","innerException":"Warehouse ID is Required\n"}
+{"traceId":"a25d5f85-10dc-4225-85ae-c4948ae0300e","timestamp":"2025-04-18T20:03:54.535148+04:00","message":"Bad Request","innerException":"Invalid request body\n"}
+{"traceId":"acfa1474-331f-4dc0-94ce-781e7c85932e","timestamp":"2025-04-18T20:05:36.4261531+04:00","message":"Bad Request","innerException":"Invalid request body\n"}
+{"traceId":"b224122c-721f-4cdb-991a-1dfd8bee828a","timestamp":"2025-04-18T20:19:58.5830392+04:00","message":"Bad Request","innerException":"Warehouse ID is Required\n"}
+{"traceId":"24765fd0-4b19-45d8-b56d-9c14315ddc56","timestamp":"2025-04-18T20:25:53.3220828+04:00","message":"Bad Request","innerException":"Invalid request body\n"}
+{"traceId":"40450b72-20f9-4402-8963-2a6634af62bb","timestamp":"2025-04-18T20:29:18.701722+04:00","message":"Bad Request","innerException":"Invalid request body\n"}
+{"traceId":"1b0897e3-df0d-4425-b543-a3187090d2c7","timestamp":"2025-04-18T20:42:17.3419605+04:00","message":"Internal Server Error","innerException":"Something went wrong: Warehouses: unsupported relations for schema Item\n"}
+{"traceId":"95c5c297-32b0-4c1e-85dc-2af3293dc308","timestamp":"2025-04-18T20:44:48.1653892+04:00","message":"Bad Request","innerException":"Invalid request body\n"}
+{"traceId":"26c73d99-9add-4dd7-a6fa-3cf6aaa7d256","timestamp":"2025-04-18T20:53:44.3858667+04:00","message":"Bad Request","innerException":"Invalid request body\n"}
+{"traceId":"f7e2f6fb-03c8-4ffe-b450-b10a7bb449b5","timestamp":"2025-04-18T20:55:51.0873905+04:00","message":"Bad Request","innerException":"Invalid request body\n"}
+{"traceId":"adcd8581-e32a-4e45-80df-987eacdd5627","timestamp":"2025-04-18T20:56:54.3576538+04:00","message":"Bad Request","innerException":"Invalid request body\n"}
+{"traceId":"05de3c19-1f89-4356-973c-ee44dd96555c","timestamp":"2025-04-18T20:57:33.9631288+04:00","message":"Bad Request","innerException":"Invalid request body\n"}
+{"traceId":"a27ea3d6-1f25-4b76-8c83-d7b976cc1103","timestamp":"2025-04-18T20:58:22.6350563+04:00","message":"Bad Request","innerException":"Invalid request body\n"}
+{"traceId":"1a766d7b-1619-406f-8e6d-f4b9609bd92e","timestamp":"2025-04-18T21:01:04.9716225+04:00","message":"Bad Request","innerException":"Invalid request body\n"}

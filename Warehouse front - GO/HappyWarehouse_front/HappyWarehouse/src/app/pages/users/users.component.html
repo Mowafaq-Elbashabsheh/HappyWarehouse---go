@@ -1,0 +1,11 @@
+<div class="container p-4">
+    <div class="row mb-4">
+        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+            <button class="btn btn-primary" type="button" (click)="addUserDialog()">Add New</button>
+        </div>
+    </div>
+
+    <app-table *ngIf="dataSource.length > 0" [data]="dataSource" [columns]="displayedColumns" [parent]="'user'"
+        (EditEmitter)="editUserDialog($event)" (ChangePasswordEmitter)="changePasswordDialog($event)" (DeleteEmitter)="deleteUser($event)"></app-table>
+
+</div>

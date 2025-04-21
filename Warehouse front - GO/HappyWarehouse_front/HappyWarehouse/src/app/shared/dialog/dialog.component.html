@@ -1,0 +1,35 @@
+<h1 mat-dialog-title>{{ title }}</h1>
+<div mat-dialog-content>
+    <ng-container *ngFor="let key of getKeys(formData)">
+        <mat-form-field *ngIf="key=='country' || key=='role'">
+            <mat-label>{{key}}</mat-label>
+            <mat-select *ngIf="key=='country'" [(ngModel)]="formData['countryId']">
+                <mat-option *ngFor="let option of countries" [value]="option.id">
+                  {{ option.name }}
+                </mat-option>
+            </mat-select>
+            <mat-select *ngIf="key=='role'" [(ngModel)]="formData['roleId']">
+                <mat-option *ngFor="let option of roles" [value]="option.id">
+                  {{ option.name }}
+                </mat-option>
+            </mat-select>
+        </mat-form-field>
+        <mat-form-field *ngIf="key != 'country' && key != 'role' && key != 'active'">
+            <mat-label>{{key}}</mat-label>
+            <input matInput [(ngModel)]="formData[key]" [disabled]="key=='id' || key=='warehouse'" [required]="!(exceptKeys.includes(key) )">
+            <mat-error *ngIf="formData[key] == '' && !(exceptKeys.includes(key))">
+                This field is required.
+            </mat-error>
+        </mat-form-field>
+        <div *ngIf="key === 'active'" class="mat-form-field">
+            <mat-checkbox [(ngModel)]="formData[key]" [disabled]="formData['id'] == 1">
+                {{ key }}
+            </mat-checkbox>
+        </div>
+    </ng-container>
+    
+</div>
+<div mat-dialog-actions>
+    <button class="btn btn-primary btn-m" (click)="AddEdit(mode)">{{ mode }}</button>
+    <button class="btn btn-danger" (click)="closeDialog()">Close</button>
+</div>

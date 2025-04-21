@@ -1,0 +1,11 @@
+.btn-mr {
+    margin-right: 1rem;
+}
+
+.table-container{
+    overflow-y: auto;
+}
+
+table{
+    width: 100%;
+}

@@ -1,0 +1,16 @@
+<div class="container p-4">
+    <div class="row mb-4">
+        <div class="col d-flex justify-content-between">
+            <div class="d-grid gap-2">
+                <button class="btn btn-primary" type="button" (click)="addItemDialog()">Add New</button>
+            </div>
+            <div class="d-grid gap-2">
+                <button class="btn btn-primary" type="button" [routerLink]="['/warehouse']">Back</button>
+            </div>
+        </div>
+    </div>
+
+    <app-table *ngIf="dataSource.length > 0" [data]="dataSource" [columns]="displayedColumns" [parent]="'item'"
+        (EditEmitter)="editItemDialog($event)" (DeleteEmitter)="deleteItem($event)"></app-table>
+
+</div>
